@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling - CSharp"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Advanced Breakpoints - CSharp", "Advanced Breakpoints - CSharp\Advanced Breakpoints - CSharp.csproj", "{A911A5A8-B636-4B01-9D1E-F6F089263F85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - Static Class - CSharp", "Static Class - CSharp\OOP1 - Static Class - CSharp.csproj", "{567796C2-707E-4D4D-9248-FC98F6C33BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A911A5A8-B636-4B01-9D1E-F6F089263F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A911A5A8-B636-4B01-9D1E-F6F089263F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A911A5A8-B636-4B01-9D1E-F6F089263F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{567796C2-707E-4D4D-9248-FC98F6C33BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{567796C2-707E-4D4D-9248-FC98F6C33BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{567796C2-707E-4D4D-9248-FC98F6C33BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{567796C2-707E-4D4D-9248-FC98F6C33BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
