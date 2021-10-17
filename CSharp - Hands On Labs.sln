@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - Instantiated Class -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - Properties - CSharp", "OOP1 - Properties - CSharp\OOP1 - Properties - CSharp.csproj", "{D9DC4D16-4341-4E4A-8CA8-00A5086CB03C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - Console UI - Class Library Demo - CSharp", "OOP1 - Class Library Demo - CSharp\OOP1 - Console UI - Class Library Demo - CSharp.csproj", "{58BF98EA-40AF-49D7-BBB2-F1474731AD08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - DemoLibrary - Class Library Demo - CSharp", "OOP1 - DemoLibrary - Class Library Demo - CSharp\OOP1 - DemoLibrary - Class Library Demo - CSharp.csproj", "{5FA93715-7BA4-4D69-988A-4CC24704DB32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{D9DC4D16-4341-4E4A-8CA8-00A5086CB03C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9DC4D16-4341-4E4A-8CA8-00A5086CB03C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9DC4D16-4341-4E4A-8CA8-00A5086CB03C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58BF98EA-40AF-49D7-BBB2-F1474731AD08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BF98EA-40AF-49D7-BBB2-F1474731AD08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BF98EA-40AF-49D7-BBB2-F1474731AD08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BF98EA-40AF-49D7-BBB2-F1474731AD08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
