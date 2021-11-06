@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - Console UI - Class L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP1 - DemoLibrary - Class Library Demo - CSharp", "OOP1 - DemoLibrary - Class Library Demo - CSharp\OOP1 - DemoLibrary - Class Library Demo - CSharp.csproj", "{5FA93715-7BA4-4D69-988A-4CC24704DB32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2 - InheritanceDemo", "InheritanceDemo\OOP2 - InheritanceDemo.csproj", "{E4A7F47C-1431-4ED6-9253-1DF6DD832BF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2 - InterfaceDemo", "InterfaceDemo\OOP2 - InterfaceDemo.csproj", "{0B969722-02C0-4E60-818B-1C67EBED0E52}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FA93715-7BA4-4D69-988A-4CC24704DB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4A7F47C-1431-4ED6-9253-1DF6DD832BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4A7F47C-1431-4ED6-9253-1DF6DD832BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4A7F47C-1431-4ED6-9253-1DF6DD832BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4A7F47C-1431-4ED6-9253-1DF6DD832BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B969722-02C0-4E60-818B-1C67EBED0E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B969722-02C0-4E60-818B-1C67EBED0E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B969722-02C0-4E60-818B-1C67EBED0E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B969722-02C0-4E60-818B-1C67EBED0E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

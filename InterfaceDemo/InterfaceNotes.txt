@@ -1,0 +1,3 @@
+﻿If we have different things that can not inherit from each other but still you want to store them in a list.
+
+C# does not support multiple inheritance.
