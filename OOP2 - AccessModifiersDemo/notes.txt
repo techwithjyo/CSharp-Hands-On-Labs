@@ -1,0 +1,5 @@
+﻿Private -> Can be used in the curly braces they are created in.
+
+Protected -> Can be used in the same curly braces, Can be used in the class which is inherited from the main class where the variable/method is declared.
+
+Internal -> Any thing in Assembly (current project) can call the method, Outside the project it can't be called.

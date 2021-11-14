@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2 - InterfaceDemo", "Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject - Inheritance - Interface", "MiniProject - Inheritance - Interface\MiniProject - Inheritance - Interface.csproj", "{EAFA28F1-58B7-46F3-846A-23AFF5FF4B10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2 - AccessModifiersDemo", "OOP2 - AccessModifiersDemo\OOP2 - AccessModifiersDemo.csproj", "{7FCA2854-74AF-41FE-8849-AD8793AFD3BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2 - AccessModifiersDemo - Class Library", "OOP2 - AccessModifiersDemo - Class Library\OOP2 - AccessModifiersDemo - Class Library.csproj", "{771CEB57-C089-479D-AD12-FA2D1BFBE399}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{EAFA28F1-58B7-46F3-846A-23AFF5FF4B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFA28F1-58B7-46F3-846A-23AFF5FF4B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFA28F1-58B7-46F3-846A-23AFF5FF4B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FCA2854-74AF-41FE-8849-AD8793AFD3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCA2854-74AF-41FE-8849-AD8793AFD3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCA2854-74AF-41FE-8849-AD8793AFD3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCA2854-74AF-41FE-8849-AD8793AFD3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771CEB57-C089-479D-AD12-FA2D1BFBE399}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771CEB57-C089-479D-AD12-FA2D1BFBE399}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771CEB57-C089-479D-AD12-FA2D1BFBE399}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771CEB57-C089-479D-AD12-FA2D1BFBE399}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
