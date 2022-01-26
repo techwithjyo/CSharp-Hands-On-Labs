@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2 - AccessModifiersDemo 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet - ADO DotNet", "DotNet - ADO DotNet\DotNet - ADO DotNet.csproj", "{713EDB05-22FF-44CF-B922-8459FB37D3EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet - EntityFramework1", "DotNet - EntityFramework1\DotNet - EntityFramework1.csproj", "{5CDA810A-DBDE-4846-AC9D-D5676893432C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{713EDB05-22FF-44CF-B922-8459FB37D3EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{713EDB05-22FF-44CF-B922-8459FB37D3EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{713EDB05-22FF-44CF-B922-8459FB37D3EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
