@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet - ADO DotNet", "DotN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet - EntityFramework1", "DotNet - EntityFramework1\DotNet - EntityFramework1.csproj", "{5CDA810A-DBDE-4846-AC9D-D5676893432C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp -Collections", "CSharp -Collections\CSharp -Collections.csproj", "{03D999FD-C093-4578-99DC-DD5BB670F5F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CDA810A-DBDE-4846-AC9D-D5676893432C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
