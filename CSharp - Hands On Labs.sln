@@ -35,6 +35,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet - EntityFramework1",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp -Collections", "CSharp -Collections\CSharp -Collections.csproj", "{03D999FD-C093-4578-99DC-DD5BB670F5F1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Properties Dotnettricks", "CSharp - Properties Dotnettricks\CSharp - Properties Dotnettricks.csproj", "{8521680A-3959-4C3C-AE87-5BA6FE9C7A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Indexers", "CSharp - Indexers\CSharp - Indexers.csproj", "{327BA1A3-FDCE-4711-BA96-37C0F4DCB1DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03D999FD-C093-4578-99DC-DD5BB670F5F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8521680A-3959-4C3C-AE87-5BA6FE9C7A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8521680A-3959-4C3C-AE87-5BA6FE9C7A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8521680A-3959-4C3C-AE87-5BA6FE9C7A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8521680A-3959-4C3C-AE87-5BA6FE9C7A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{327BA1A3-FDCE-4711-BA96-37C0F4DCB1DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{327BA1A3-FDCE-4711-BA96-37C0F4DCB1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{327BA1A3-FDCE-4711-BA96-37C0F4DCB1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{327BA1A3-FDCE-4711-BA96-37C0F4DCB1DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
