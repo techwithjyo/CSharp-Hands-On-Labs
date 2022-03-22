@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Delegates", "CShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Events", "CSharp - Events\CSharp - Events.csproj", "{229AB849-C0B8-4277-AC63-DEE06C6E81FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Anonymous Method and Lambda Expression", "CSharp - Anonymous Method and Lambda Expression\CSharp - Anonymous Method and Lambda Expression.csproj", "{E4F4A739-1AF7-446A-BE18-2029520C38D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{229AB849-C0B8-4277-AC63-DEE06C6E81FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{229AB849-C0B8-4277-AC63-DEE06C6E81FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{229AB849-C0B8-4277-AC63-DEE06C6E81FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
