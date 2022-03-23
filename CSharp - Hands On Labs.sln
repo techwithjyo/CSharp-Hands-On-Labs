@@ -55,6 +55,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Events", "CSharp -
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Anonymous Method and Lambda Expression", "CSharp - Anonymous Method and Lambda Expression\CSharp - Anonymous Method and Lambda Expression.csproj", "{E4F4A739-1AF7-446A-BE18-2029520C38D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Async Programming", "CSharp - Async Programming\CSharp - Async Programming.csproj", "{6FD97E35-744C-491D-B9C1-966B17475A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Async Return Types", "CSharp - Async Return Types\CSharp - Async Return Types.csproj", "{24663A10-78BE-4C70-8081-83524566677E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Async Await Sample", "CSharp - Async Await Sample\CSharp - Async Await Sample.csproj", "{02CAA400-21BC-48D2-9105-0739FDDB0E58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +171,18 @@ Global
 		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F4A739-1AF7-446A-BE18-2029520C38D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD97E35-744C-491D-B9C1-966B17475A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD97E35-744C-491D-B9C1-966B17475A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD97E35-744C-491D-B9C1-966B17475A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD97E35-744C-491D-B9C1-966B17475A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24663A10-78BE-4C70-8081-83524566677E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24663A10-78BE-4C70-8081-83524566677E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24663A10-78BE-4C70-8081-83524566677E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24663A10-78BE-4C70-8081-83524566677E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02CAA400-21BC-48D2-9105-0739FDDB0E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02CAA400-21BC-48D2-9105-0739FDDB0E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02CAA400-21BC-48D2-9105-0739FDDB0E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02CAA400-21BC-48D2-9105-0739FDDB0E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
