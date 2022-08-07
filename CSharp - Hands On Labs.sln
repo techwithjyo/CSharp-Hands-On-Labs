@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionary - CSharp", "Dictionary - CSharp\Dictionary - CSharp.csproj", "{897FECF0-9242-46E2-A48C-FBD047C823D1}"
 EndProject
@@ -62,6 +62,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - Async Await Sample", "CSharp - Async Await Sample\CSharp - Async Await Sample.csproj", "{02CAA400-21BC-48D2-9105-0739FDDB0E58}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID Principles", "SOLID Principles\SOLID Principles.csproj", "{ACE21C63-CD05-4A66-B568-B96BB9BB30C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DSA Array Test", "DSA Array Test\DSA Array Test.csproj", "{6C0B1A43-844B-42A6-81A0-414EAED1A5F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -189,6 +191,10 @@ Global
 		{ACE21C63-CD05-4A66-B568-B96BB9BB30C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACE21C63-CD05-4A66-B568-B96BB9BB30C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACE21C63-CD05-4A66-B568-B96BB9BB30C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0B1A43-844B-42A6-81A0-414EAED1A5F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0B1A43-844B-42A6-81A0-414EAED1A5F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0B1A43-844B-42A6-81A0-414EAED1A5F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0B1A43-844B-42A6-81A0-414EAED1A5F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
