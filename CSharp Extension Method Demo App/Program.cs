@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using ExtensionSamplesDemo.Extensions;
 
 namespace CSharp_Extension_Method_Demo_App
 {
@@ -18,6 +19,12 @@ namespace CSharp_Extension_Method_Demo_App
             room.TurnOffAir().CloseShades();
 
             "Hello World".PrintToConsole();
+
+            SimpleLogger logger = new SimpleLogger();
+            logger.Log("Test Error", "Error");
+            logger.LogError("This is an Error!!");
+            logger.LogWarning("This is a Warning!!");
+
             Console.ReadLine();
         }
     }
@@ -27,37 +34,34 @@ namespace CSharp_Extension_Method_Demo_App
         public bool IsAirRunning { get; set; }
         public bool AreShadesOpen { get; set; }
     }
-    public static class ExtensionSamples
+
+    public static class ExtendSimpleLogger
     {
-        public static void PrintToConsole(this string message)
+        public static void LogError(this SimpleLogger logger, string message)
+        {
+            var defualtColor = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Red;
+            logger.Log(message, "Error");
+            Console.ForegroundColor = defualtColor;
+        }
+        public static void LogWarning(this SimpleLogger logger, string message)
+        {
+            var defualtColor = Console.ForegroundColor;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            logger.Log(message, "Warning");
+            Console.ForegroundColor = defualtColor;
+        }
+    }
+    public class SimpleLogger
+    {
+        public void Log(String message)
         {
             Console.WriteLine(message);
         }
 
-        public static HotelRoomModel TurnOnAir(this HotelRoomModel room)
+        public void Log(string message, string messageType)
         {
-            room.IsAirRunning = true;
-            return room;
-        }
-        public static HotelRoomModel TurnOffAir(this HotelRoomModel room)
-        {
-            room.IsAirRunning = false;
-            return room;
-        }
-        public static HotelRoomModel SetTemperature(this HotelRoomModel room, int temperature)
-        {
-            room.Temperature = temperature;
-            return room;
-        }
-        public static HotelRoomModel OpenShades(this HotelRoomModel room)
-        {
-            room.AreShadesOpen = true;
-            return room;
-        }
-        public static HotelRoomModel CloseShades(this HotelRoomModel room)
-        {
-            room.AreShadesOpen = false;
-            return room;
+            Log($"{messageType}: {message}");
         }
     }
 }
