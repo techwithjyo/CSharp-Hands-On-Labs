@@ -43,10 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExtendSimpleLogger.cs" />
     <Compile Include="ExtensionSamples.cs" />
+    <Compile Include="HotelRoomModel.cs" />
     <Compile Include="ISimpleLogger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleLogger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
