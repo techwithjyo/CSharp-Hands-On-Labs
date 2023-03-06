@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Extension Method Dem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{B36E1DA8-3E05-4BEC-BD7D-832BB14C402E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDemo", "EventDemo\EventDemo.csproj", "{436A40EA-2BC4-4618-A72E-A7D062E89309}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{B36E1DA8-3E05-4BEC-BD7D-832BB14C402E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B36E1DA8-3E05-4BEC-BD7D-832BB14C402E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B36E1DA8-3E05-4BEC-BD7D-832BB14C402E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
