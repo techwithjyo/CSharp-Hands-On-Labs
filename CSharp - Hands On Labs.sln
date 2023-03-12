@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDemo", "EventDemo\EventDemo.csproj", "{436A40EA-2BC4-4618-A72E-A7D062E89309}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject - Generics & Events", "MiniProject - Generics & Events\MiniProject - Generics & Events.csproj", "{69D34379-A487-4000-941B-3361F0CAAEDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{436A40EA-2BC4-4618-A72E-A7D062E89309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D34379-A487-4000-941B-3361F0CAAEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D34379-A487-4000-941B-3361F0CAAEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D34379-A487-4000-941B-3361F0CAAEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D34379-A487-4000-941B-3361F0CAAEDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
