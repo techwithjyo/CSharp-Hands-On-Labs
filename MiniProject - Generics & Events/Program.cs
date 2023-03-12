@@ -29,16 +29,31 @@ namespace MiniProject___Generics___Events
             var path = ".";
             var fullPath = Path.GetFullPath(path);
 
-            people.SaveToCSV(@"C:\Test\people.csv");
-            cars.SaveToCSV(@"C:\Test\cars.csv");
+            DataAccess<PersonModel> peopleData = new DataAccess<PersonModel>();
+            peopleData.BadEntryFound += PeopleData_BadEntryFound;
+            DataAccess<CarModel> carData = new DataAccess<CarModel>();
+            carData.BadEntryFound += CarData_BadEntryFound;
+
+            peopleData.SaveToCSV(people,@"C:\Test\people.csv");
+            carData.SaveToCSV(cars,@"C:\Test\cars.csv");
 
             Console.ReadLine();
         }
+
+        private static void CarData_BadEntryFound(object sender, CarModel e)
+        {
+            Console.WriteLine($"Bad entry found for {e.Manufacturer} {e.Model}");
+        }
+
+        private static void PeopleData_BadEntryFound(object sender, PersonModel e)
+        {
+            Console.WriteLine($"Bad entry found for {e.FirstName} {e.LastName}");
+        }
     }
-    public static class DataAccess
+    public class DataAccess<T> where T: new()
     {
-        //public static event EventHandler<Task>
-        public static void SaveToCSV<T>(this List<T> items, string filePath) where T : new()
+        public event EventHandler<T> BadEntryFound;
+        public void SaveToCSV(List<T> items, string filePath)
         {
             List<string> rows = new List<string>();
             T entry = new T();
@@ -66,6 +81,7 @@ namespace MiniProject___Generics___Events
 
                     if (badWordDetected == true)
                     {
+                        BadEntryFound?.Invoke(this, item);
                         break;
                     }
 
@@ -81,7 +97,7 @@ namespace MiniProject___Generics___Events
             }
             File.WriteAllLines(filePath, rows);
         }
-        private static bool BadWordDetector(string stringToTest)
+        private bool BadWordDetector(string stringToTest)
         {
             bool output = false;
             string lowerCaseTest = stringToTest.ToLower();
