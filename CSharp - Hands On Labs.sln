@@ -73,7 +73,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventDemo", "EventDemo\Even
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject - Generics & Events", "MiniProject - Generics & Events\MiniProject - Generics & Events.csproj", "{69D34379-A487-4000-941B-3361F0CAAEDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Access - LinqUI", "Data Access - LinqUI\Data Access - LinqUI.csproj", "{DA6134C1-7C28-4DAE-94DA-FBCEA732C187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data Access - LinqUI", "Data Access - LinqUI\Data Access - LinqUI.csproj", "{DA6134C1-7C28-4DAE-94DA-FBCEA732C187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapp For  Middleware Test", "Webapp For  Middleware Test\Webapp For  Middleware Test.csproj", "{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -225,6 +227,10 @@ Global
 		{DA6134C1-7C28-4DAE-94DA-FBCEA732C187}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA6134C1-7C28-4DAE-94DA-FBCEA732C187}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA6134C1-7C28-4DAE-94DA-FBCEA732C187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
