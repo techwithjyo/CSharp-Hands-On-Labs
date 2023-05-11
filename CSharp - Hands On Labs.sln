@@ -75,7 +75,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniProject - Generics & Ev
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data Access - LinqUI", "Data Access - LinqUI\Data Access - LinqUI.csproj", "{DA6134C1-7C28-4DAE-94DA-FBCEA732C187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Webapp For  Middleware Test", "Webapp For  Middleware Test\Webapp For  Middleware Test.csproj", "{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Webapp For  Middleware Test", "Webapp For  Middleware Test\Webapp For  Middleware Test.csproj", "{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Lambda Expression MSDocs", "CSharp Lambda Expression MSDocs\CSharp Lambda Expression MSDocs.csproj", "{A3F3066A-BF5C-481C-9BDF-DA82125A46EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +233,10 @@ Global
 		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A1F806-08A8-4CEE-97A6-896A7A2278CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3F3066A-BF5C-481C-9BDF-DA82125A46EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3F3066A-BF5C-481C-9BDF-DA82125A46EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3F3066A-BF5C-481C-9BDF-DA82125A46EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3F3066A-BF5C-481C-9BDF-DA82125A46EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
