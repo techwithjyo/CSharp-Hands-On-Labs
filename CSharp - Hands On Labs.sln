@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorPagesMovie", "RazorPag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore Dependency Injection Demo", "AspNetCore Dependency Injection Demo\AspNetCore Dependency Injection Demo.csproj", "{ED44B7D3-C607-400C-AEA8-AEF1B3632E10}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Class Demo", "Abstract Class Demo\Abstract Class Demo.csproj", "{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{ED44B7D3-C607-400C-AEA8-AEF1B3632E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ED44B7D3-C607-400C-AEA8-AEF1B3632E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ED44B7D3-C607-400C-AEA8-AEF1B3632E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
