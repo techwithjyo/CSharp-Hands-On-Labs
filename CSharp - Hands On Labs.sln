@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore Dependency Injec
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Class Demo", "Abstract Class Demo\Abstract Class Demo.csproj", "{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsDemo", "GenericsDemo\GenericsDemo.csproj", "{69E334B9-ACF5-4564-B7EA-2AD4AD0EE000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA1EC835-A56E-49BB-90AE-69D5E889BDEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69E334B9-ACF5-4564-B7EA-2AD4AD0EE000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69E334B9-ACF5-4564-B7EA-2AD4AD0EE000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69E334B9-ACF5-4564-B7EA-2AD4AD0EE000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69E334B9-ACF5-4564-B7EA-2AD4AD0EE000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
