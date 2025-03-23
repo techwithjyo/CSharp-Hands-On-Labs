@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsDemo", "GenericsDem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsDemo", "EventsDemo\EventsDemo.csproj", "{03D01C81-AB81-48F2-9153-5A9798F95FDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp - LINQ", "CSharp - LINQ\CSharp - LINQ.csproj", "{09627748-654D-476E-B1CD-EEEC1A145E15}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +269,10 @@ Global
 		{03D01C81-AB81-48F2-9153-5A9798F95FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03D01C81-AB81-48F2-9153-5A9798F95FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03D01C81-AB81-48F2-9153-5A9798F95FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09627748-654D-476E-B1CD-EEEC1A145E15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09627748-654D-476E-B1CD-EEEC1A145E15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09627748-654D-476E-B1CD-EEEC1A145E15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09627748-654D-476E-B1CD-EEEC1A145E15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
